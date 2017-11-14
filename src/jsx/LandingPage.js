@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 
+import phone from '../assets/phone.svg'
+
 export default class LandingPage extends Component{
 
     render(){
@@ -13,6 +15,9 @@ export default class LandingPage extends Component{
                     </div>
 
                     <div className='info'>
+                        <img src={phone} alt='phone' className='phone'/>
+                        <p className='text'>Call for more info!</p>
+                        <p className='num'>+1 (801) 339-1928</p>
                     </div>
 
                 </div>
